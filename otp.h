@@ -23,7 +23,7 @@ struct chip_info {
 #define RAM_FW_START_ADDRESS    	0x00050000
 #define RAM_DATA_START_ADDRESS  	0x00051000
 #define FW_I2C_REG              	0x2001C014
-#define FW_VERSION_HW_REG           0x2001C004
+#define FW_VERSION_HW_REG             0x2001C004
 
 #define OPERATION_MODE_REG      	0x000E
 #define OTP_WRITE_LENGTH_REG    	0x014C
