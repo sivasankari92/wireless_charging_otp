@@ -19,7 +19,7 @@
 #define I2C_SLAVE_ADDR 		0x61
 #define I2C_DEV_PATH 		"/dev/i2c-1"
 #define PI_GPIO_CHIP_PATH 	"/dev/gpiochip0"
-#define PI_GPIO_26 			26   // pin 37
+#define PI_GPIO_26 	        26   // pin 37
 
 int i2c_open();
 int i2c_write(uint8_t* data, int data_length);
