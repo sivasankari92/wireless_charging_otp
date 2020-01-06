@@ -23,7 +23,7 @@ struct chip_info {
 #define RAM_FW_START_ADDRESS    	0x00050000
 #define RAM_DATA_START_ADDRESS  	0x00051000
 #define FW_I2C_REG              	0x2001C014
-#define FW_VERSION_HW_REG           0x2001C004
+#define FW_VERSION_HW_REG             0x2001C004
 
 #define OPERATION_MODE_REG      	0x000E
 #define OTP_WRITE_LENGTH_REG    	0x014C
@@ -46,7 +46,7 @@ struct chip_info {
 #define GPIO_RESET_VALUE        	0x10
 #define OTP_ENABLE              	0x01
 
-#define POLLING_INTERVAL         	50
+#define POLLING_INTERVAL         	5
 #define OTP_FLAG_POLLING_TIMEOUT 	200
 #define OPCODE		            	0xFA
 #define OTP_MAX_SIZE            	(16 * 1024)
