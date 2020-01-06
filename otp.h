@@ -51,9 +51,9 @@ struct chip_info {
 #define OPCODE		            	0xFA
 #define OTP_MAX_SIZE            	(16 * 1024)
 #define GENERAL_WAITTIME         	100
-#define HW_I2C_CHUNK_SIZE                128 
-#define RAM_WRITE_BLOCK_SIZE             4096
-#define RAM_SIZE                         (8 * 1024)
+#define HW_I2C_CHUNK_SIZE               128 
+#define RAM_WRITE_BLOCK_SIZE            4096
+#define RAM_SIZE                        (8 * 1024)
 
 #define MAX_RETRY                    3
 
