@@ -1,2 +1,12 @@
 # wireless_charging_otp
-OTP programming procedure for WLC68 
+OTP programming procedure for STWLC68
+
+To Compile:
+             gcc -o <name of the output executable> -I <path to libgpiod includes directory> main.c  otp.c i2c_interface.c -L <path to libgpiod lib directory> -lgpiod
+  
+  example: gcc -o otp_tool -I export/rootfs/include main.c otp.c i2c_interface.c -L export/rootfs/lib -lgpiod
+  
+  To Run:
+    ./<name of the executable>
+  
+  example: ./otp_tool
